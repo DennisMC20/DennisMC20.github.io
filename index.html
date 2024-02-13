@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ Brianita ♥</title>
+  <style>
+    .body {
+      background-color: crimson;
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ Quieres ser mi novia ♥</h1>
+  <img src="https://stickerly.pstatic.net/sticker_pack/1OzmnaU2rNLhyhkZpvaJQg/5LAD7V/14/a5876573-48a0-48a6-ac00-136f3effdbdf.png" alt="Foto D My" class="body__img" />
+  <br>
+  <button id="yes">SIIII</button>
+  <button id="no">NO-JAJA</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞Wow somos novios💞');
+      alert('🥰Te quiero Mucho🥰');
+      location.href = 'https://www.youtube.com/watch?v=QD0aSAe67CI=12';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
